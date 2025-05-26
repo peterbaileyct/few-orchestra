@@ -1,0 +1,2 @@
+# Rich Text Log
+A rich text log is a scrolling widget that resembles an SMS/iMessage/RCS text interface on a 21st century mobile device. An Agent that is allowed to connect to it can display a text message in a bubble, or an image that appears in minature and can be clicked on to display full size.
