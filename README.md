@@ -5,7 +5,7 @@ This is a proof-of-concept app to demonstrate the power of an orchestrated set o
 
 ``` mermaid
 graph LR
-  A -> B: You are responsible for 
+  A -- You are responsible for... --> B: 
 ```
 
 ## Concepts
