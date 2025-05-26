@@ -1,0 +1,27 @@
+name: few_orchestra
+description: A proof-of-concept Flutter app demonstrating the FEW orchestrated AI approach.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.0 # For secure local storage of API keys
+  http: ^1.1.0 # For making HTTP requests to AI APIs (e.g., ChatGPT)
+  yaml: ^3.1.2 # For parsing personas from YAML
+  # google_generative_ai: ^0.2.0 # If using Google Gemini directly in Flutter
+  # Any other necessary packages for specific AI models
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/

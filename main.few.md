@@ -1,5 +1,17 @@
 # FEW Orchestra
 
+## Generated Files:
+- pubspec.yaml: Project dependencies and Flutter configuration.
+- lib/main.dart: The main application entry point and orchestration logic.
+- lib/services/api_key_storage.dart: Service for secure API key storage.
+- lib/models/persona.dart: Dart class defining the Persona structure.
+- assets/data/personas.yaml: Persona definitions in YAML format.
+- lib/services/intelligence_provider.dart: Abstract intelligence provider and ChatGPT implementation.
+- lib/agents/base_agent.dart: Base class for all agents.
+- lib/agents/agent.dart: Generic agent implementation.
+- lib/agents/boss_agent.dart: Boss agent implementation.
+- lib/widgets/rich_text_log.dart: Flutter widget for displaying the conversation log.
+
 This proof-of-concept of the FEW orchestrated AI approach operates as follows:
 
 - A ChatGPT API Key is retrieved from secure storage; if none currently exists, the user is prompted for it and it is saved to secure storage.
